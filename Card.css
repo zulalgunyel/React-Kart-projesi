@@ -1,0 +1,29 @@
+.card{
+    width: 250px;
+    height: 400px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 2px;
+}
+.card .card-img{
+    width: 100%;
+}
+.card .card-desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    align-self: flex-start;
+}
+.card .card-desc button{
+    width: 100px;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: deeppink;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
